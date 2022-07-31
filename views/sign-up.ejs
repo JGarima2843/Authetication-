@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title> <%= title %> </title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/sign-up.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+ </head>
+ <body>
+  <div class="bgimg">
+   <div class="centerdiv">
+   
+    <h2>user Sign-Up</h2>
+    <form action="/user/create" method="POST">
+     <div>
+        <label for="email">Email</label><br>
+      <input type="email" name="email" class="inputbox" placeholder="abc@xy.com">
+     </div>
+     <br>
+     <div>
+        <label for="country">Country</label><br>
+        <input type="country" name="location" class="inputbox" placeholder="Location">
+    </div>
+    <br>
+    <div>
+        <label for="url">URL </label><br>
+        <input type="url" name="url" class="inputbox" placeholder=" give the url for your store ">
+    </div>
+    <br>
+
+     <div> <label for="password">Password</label><br>
+      <input type="password" name="password" class="inputbox" placeholder="Password">
+     </div>
+     <br>
+
+     <div>
+        <label for="confirm_password">Confirm Password</label><br>
+        <input type="Password" name="confirm_password" class="inputbox" placeholder="Password">
+    </div>
+       <br>
+     <div>
+      <button type="submit"> Sign-Up </button>
+     </div>
+    </form> <br>
+   
+   </div>
+  </div>
+  
+ </body>
+</html>
